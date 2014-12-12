@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'iconos';
+  src: url("fonts/icomoon/icomoon.eot");
+  src: url("fonts/icomoon/icomoon.eot?#iefix") format('embedded-opentype'), url("fonts/icomoon/icomoon.ttf") format('truetype'), url("fonts/icomoon/icomoon.woff") format('woff'), url("fonts/icomoon/icomoon.svg#icomoon") format('svg');
+}
+@font-face {
+  font-family: 'Conv_MyriadSetPro-Thin';
+  src: url("fonts/MyriadSetPro/MyriadSetPro-Thin.eot");
+  src: local('☺'), url("fonts/MyriadSetPro/MyriadSetPro-Thin.woff") format('woff'), url("fonts/MyriadSetPro/MyriadSetPro-Thin.ttf") format('truetype'), url("fonts/MyriadSetPro/MyriadSetPro-Thin.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_MyriadSetPro-Thin-Italic';
+  src: url("fonts/MyriadSetPro/MyriadSetPro-Thin-Italic.eot");
+  src: local('☺'), url("fonts/MyriadSetPro/MyriadSetPro-Thin-Italic.woff") format('woff'), url("fonts/MyriadSetPro/MyriadSetPro-Thin-Italic.ttf") format('truetype'), url("fonts/MyriadSetPro/MyriadSetPro-Thin-Italic.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_MyriadSetPro-Bold';
+  src: url("fonts/MyriadSetPro/MyriadSetPro-Bold.eot");
+  src: local('☺'), url("fonts/MyriadSetPro/MyriadSetPro-Bold.woff") format('woff'), url("fonts/MyriadSetPro/MyriadSetPro-Bold.ttf") format('truetype'), url("fonts/MyriadSetPro/MyriadSetPro-Bold.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_MyriadSetPro-Bold-Italic';
+  src: url("fonts/MyriadSetPro/MyriadSetPro-Bold-Italic.eot");
+  src: local('☺'), url("fonts/MyriadSetPro/MyriadSetPro-Bold-Italic.woff") format('woff'), url("fonts/MyriadSetPro/MyriadSetPro-Bold-Italic.ttf") format('truetype'), url("fonts/MyriadSetPro/MyriadSetPro-Bold-Italic.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_MyriadSetPro-UltraLight';
+  src: url("fonts/MyriadSetPro/MyriadSetPro-UltraLight.eot");
+  src: local('☺'), url("fonts/MyriadSetPro/MyriadSetPro-UltraLight.woff") format('woff'), url("fonts/MyriadSetPro/MyriadSetPro-UltraLight.ttf") format('truetype'), url("fonts/MyriadSetPro/MyriadSetPro-UltraLight.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_MyriadSetPro-UltraLight-Italic';
+  src: url("fonts/MyriadSetPro/MyriadSetPro-UltraLight-Italic.eot");
+  src: local('☺'), url("fonts/MyriadSetPro/MyriadSetPro-UltraLight-Italic.woff") format('woff'), url("fonts/MyriadSetPro/MyriadSetPro-UltraLight-Italic.ttf") format('truetype'), url("fonts/MyriadSetPro/MyriadSetPro-UltraLight-Italic.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_MyriadSetPro-Semibold';
+  src: url("fonts/MyriadSetPro/MyriadSetPro-Semibold.eot");
+  src: local('☺'), url("fonts/MyriadSetPro/MyriadSetPro-Semibold.woff") format('woff'), url("fonts/MyriadSetPro/MyriadSetPro-Semibold.ttf") format('truetype'), url("fonts/MyriadSetPro/MyriadSetPro-Semibold.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_MyriadSetPro-Semibold-Italic';
+  src: url("fonts/MyriadSetPro/MyriadSetPro-Semibold-Italic.eot");
+  src: local('☺'), url("fonts/MyriadSetPro/MyriadSetPro-Semibold-Italic.woff") format('woff'), url("fonts/MyriadSetPro/MyriadSetPro-Semibold-Italic.ttf") format('truetype'), url("fonts/MyriadSetPro/MyriadSetPro-Semibold-Italic.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

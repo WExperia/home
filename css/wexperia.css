@@ -1,0 +1,25 @@
+@import 'fonts.css';
+.msp-th {
+  font-family: Conv_MyriadSetPro-Thin, Arial, sans-serif;
+}
+.msp-th-it {
+  font-family: Conv_MyriadSetPro-Thin-Italic, Arial, sans-serif;
+}
+.msp-bo {
+  font-family: Conv_MyriadSetPro-Bold, Arial, sans-serif;
+}
+.msp-bo-it {
+  font-family: Conv_MyriadSetPro-Bold-Italic, Arial, sans-serif;
+}
+.msp-sb {
+  font-family: Conv_MyriadSetPro-Semibold, Arial, sans-serif;
+}
+.msp-sb-it {
+  font-family: Conv_MyriadSetPro-Semibold-Italic, Arial, sans-serif;
+}
+.msp-ul {
+  font-family: Conv_MyriadSetPro-UltraLight, Arial, sans-serif;
+}
+.msp-ul-it {
+  font-family: Conv_MyriadSetPro-UltraLight-Italic, Arial, sans-serif;
+}
