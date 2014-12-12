@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <meta name="HandheldFriendly" content="true">
 
-		<title>WExperia: Factoría de Proyectos Web</title>
+		<title>WExperia: Desarrollo y proyectos Web</title>
 
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/wexperia.css" />
@@ -21,10 +21,10 @@
                 <h1 class="title">WExperia</h1>
                 <nav>
                     <ul>
-                        <li><a href="#">Nosotros</a></li>
-                        <li><a href="#">Proyectos</a></li>
-                        <li><a href="#">Tecnología</a></li>
-                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#tecnologia">Tecnología</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
                     </ul>
                 </nav>
             </header>
@@ -34,22 +34,39 @@
             <div class="main wrapper clearfix">
 
                 <article>
-                    <header>
+                    <section class="presentacion">
                         <h2>Nosotros</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec.</p>
-                    </header>
-                    <section>
-                        <h2>Proyectos</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
+                        <p>
+Wexperia es una iniciativa empresarial dedicada 100% al diseño y desarrollo de sitios y aplicaciones web. Nuestro enfoque esta dirigido a satisfacer las necesidades de nuestros clientes
+ofreciendo la mejor imagen y experiencia disponible.
+                        </p>
+                        <p>
+Esta filosofía de trabajo procede de la amplia experiencia de nuestro equipo en el desarrollo de aplicaciones en
+múltiples sectores de más de quince años, los últimos siete en el sector publicitario.
+                        </p>
                     </section>
-                    <section>
+                    <section id="proyectos">
+                        <h2>Proyectos en Curso</h2>
+                        <h3>Industria Publicitaria</h3>
+
+                        <h4>Market Info</h4>
+                        <p>Realización de Análisis de Competencia.</p>
+                         </p>
+                        <h4>Management Reporting</h4>
+                        <p>Gestión de Previsiones y Reales.</p>
+                    </section>
+                    <section id="tecnologia">
                         <h2>Tecnología</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
+                        <p>Utilizamos metodologías de trabajo ágiles, con las cuales nuestros clientes están al día de nuestras actividades, lo que nos permite detectar
+                        a tiempo nuevas necesidades y requerimientos, así como acortar los períodos de desarrollo a su mínima expresión.</p>
+                        <p>También nos mantenenemos al día de las nuevas tecnologías y tendencias, para ofrecer nuestros clientes las soluciones exactas a sus requerimientos y necesidades.</p>
                     </section>
-                    <footer>
-                        <h3>Contacto</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor.</p>
-                    </footer>
+                    <section id="contacto">
+                        <h2>Contacto</h2>
+                        <p>Para nosotros es muy importante estar siempre al alcance de nuestros clientes.</p>
+                        <p>Pueden contactarnos a través de contacto directo o a través de las redes sociales</p>
+ 						<div></div>
+                    </section>
                 </article>
 
                 <aside>
