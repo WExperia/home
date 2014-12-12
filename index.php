@@ -8,14 +8,25 @@
 
 		<title>WExperia: Desarrollo y proyectos Web</title>
 
+		<link rel="shortcut icon" href="favicon.ico" />
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/wexperia.css" />
 		<link rel="stylesheet" href="css/html5boilerplate.css" />
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="js/vendor/trmix.min.js"></script>
 
 	</head>
 	<body>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.0";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+		</script>
         <div class="header-container">
             <header class="wrapper clearfix">
                 <h1 class="title">WExperia</h1>
@@ -37,12 +48,13 @@
                     <section class="presentacion">
                         <h2>Nosotros</h1>
                         <p>
-Wexperia es una iniciativa empresarial dedicada 100% al diseño y desarrollo de sitios y aplicaciones web. Nuestro enfoque esta dirigido a satisfacer las necesidades de nuestros clientes
+Wexperia es una iniciativa empresarial dedicada 100% al diseño y desarrollo de sitios y aplicaciones 
+web. Nuestro enfoque esta dirigido a satisfacer las necesidades de nuestros clientes
 ofreciendo la mejor imagen y experiencia disponible.
                         </p>
                         <p>
-Esta filosofía de trabajo procede de la amplia experiencia de nuestro equipo en el desarrollo de aplicaciones en
-múltiples sectores de más de quince años, los últimos siete en el sector publicitario.
+Esta filosofía de trabajo procede de la amplia experiencia de nuestro equipo en el desarrollo de 
+aplicaciones en múltiples sectores de más de 15 años, los últimos 7 en el sector publicitario.
                         </p>
                     </section>
                     <section id="proyectos">
@@ -57,16 +69,38 @@ múltiples sectores de más de quince años, los últimos siete en el sector pub
                     </section>
                     <section id="tecnologia">
                         <h2>Tecnología</h2>
-                        <p>Utilizamos metodologías de trabajo ágiles, con las cuales nuestros clientes están al día de nuestras actividades, lo que nos permite detectar
-                        a tiempo nuevas necesidades y requerimientos, así como acortar los períodos de desarrollo a su mínima expresión.</p>
-                        <p>También nos mantenenemos al día de las nuevas tecnologías y tendencias, para ofrecer nuestros clientes las soluciones exactas a sus requerimientos y necesidades.</p>
+                        <p>Utilizamos metodologías de trabajo ágiles, 
+lo que permite que nuestros clientes estén al corriente en cada paso del proceso 
+de desarrollo, lo que nos permite detectar a tiempo nuevas necesidades y requerimientos, 
+así como acortar los períodos de desarrollo a su mínima expresión.</p>
+                        <p>También nos mantenenemos al día de las nuevas tecnologías y 
+tendencias, para ofrecer nuestros clientes las soluciones exactas a sus requerimientos y 
+necesidades.</p>
                     </section>
                     <section id="contacto">
                         <h2>Contacto</h2>
                         <p>Para nosotros es muy importante estar siempre al alcance de nuestros clientes.</p>
                         <p>Pueden contactarnos a través de contacto directo o a través de las redes sociales</p>
- 						<div></div>
+ 						<div>
+ 							<a 	class="twitter-follow-button"
+  								href="https://twitter.com/wexperiaes"
+
+  								data-show-count="false"
+  								data-lang="es">Seguir @WExperia</a>
+							<script type="text/javascript">
+								window.twttr = (function (d, s, id) {
+								  var t, js, fjs = d.getElementsByTagName(s)[0];
+								  if (d.getElementById(id)) return;
+								  js = d.createElement(s); js.id = id;
+								  js.src= "https://platform.twitter.com/widgets.js";
+								  fjs.parentNode.insertBefore(js, fjs);
+								  return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+								}(document, "script", "twitter-wjs"));
+							</script>
+ 						</div>
+                    	<div class="fb-follow" data-href="https://www.facebook.com/wexperia" data-colorscheme="light" data-layout="button" data-show-faces="true"></div>
                     </section>
+
                 </article>
 
                 <aside>
